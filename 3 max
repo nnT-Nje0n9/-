@@ -1,0 +1,12 @@
+print("input 3 numbers : ")
+
+num = list(map(int,input().split())) #여러개 리스트로 입력받는데 유용
+
+max = num[0]
+
+for i in num:
+    if max < i:
+        max = i
+
+print(max)
+    
